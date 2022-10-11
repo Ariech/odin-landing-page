@@ -3,7 +3,6 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 
@@ -103,11 +102,50 @@ a {
   background-color: #3882f6;
   border-radius: 16px;
   border: none;
+  margin-bottom: 16px;
 }
 
 /* Random info section */
 
+.random-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+}
+
+.boxes-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.box {
+  max-width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+}
+
+.wrapper p {
+  width: 200px;
+  text-align: center;
+}
+
 /* Quote section */
+
+.gray-background {
+  background-color: #e5e7eb;
+}
 
 /* Call to action button section */
 
