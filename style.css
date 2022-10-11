@@ -96,7 +96,8 @@ a {
   height: auto;
 }
 
-.hero-text a {
+.hero-text a,
+.cta-btn-section a {
   padding: 12px 36px;
   text-align: center;
   background-color: #3882f6;
@@ -113,6 +114,7 @@ a {
   align-items: center;
   width: 80%;
   margin: auto;
+  padding: 20px 0;
 }
 
 h2 {
@@ -125,7 +127,7 @@ h2 {
 .boxes-section {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 75px;
   flex-wrap: wrap;
 }
 
@@ -147,6 +149,60 @@ h2 {
   background-color: #e5e7eb;
 }
 
+.quote-section {
+  width: 80%;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.quote-section p {
+  text-align: center;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-section .thor {
+  text-align: right;
+  font-weight: bold;
+}
+
 /* Call to action button section */
 
+.cta-btn-section {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  gap: 10%;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 60px auto;
+  padding: 20px 40px;
+  width: 80%;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 16px;
+}
+
+.cta-btn-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-btn-section p {
+  color: #e5e7eb;
+  font-size: 20px;
+}
+
+.cta-btn-section a {
+  background-color: #3882f6;
+  border: 2px solid #fff;
+}
+
 /* Footer section */
+
+footer p {
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
